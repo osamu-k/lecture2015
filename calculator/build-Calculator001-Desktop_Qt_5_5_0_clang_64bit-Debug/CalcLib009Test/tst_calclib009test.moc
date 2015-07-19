@@ -1,0 +1,184 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_calclib009test.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.5.0)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_calclib009test.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.5.0. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+struct qt_meta_stringdata_CalcLib009Test_t {
+    QByteArrayData data[18];
+    char stringdata0[537];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CalcLib009Test_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CalcLib009Test_t qt_meta_stringdata_CalcLib009Test = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "CalcLib009Test"
+QT_MOC_LITERAL(1, 15, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 28, 0), // ""
+QT_MOC_LITERAL(3, 29, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 45, 24), // "testCalculatorCanBeShown"
+QT_MOC_LITERAL(5, 70, 28), // "testCalculatorAcceptsNumber1"
+QT_MOC_LITERAL(6, 99, 37), // "testCalculatorAcceptsNumber12..."
+QT_MOC_LITERAL(7, 137, 35), // "testCalculatorIgnoresPrecidin..."
+QT_MOC_LITERAL(8, 173, 35), // "testCalculatorCalculatesOpera..."
+QT_MOC_LITERAL(9, 209, 35), // "testCalculatorCalculatesOpera..."
+QT_MOC_LITERAL(10, 245, 35), // "testCalculatorCalculatesOpera..."
+QT_MOC_LITERAL(11, 281, 35), // "testCalculatorCalculatesOpera..."
+QT_MOC_LITERAL(12, 317, 41), // "testCalculatorCalculatesRepea..."
+QT_MOC_LITERAL(13, 359, 45), // "testCalculatorCalculatesOpera..."
+QT_MOC_LITERAL(14, 405, 25), // "testCalculatorAcceptsSign"
+QT_MOC_LITERAL(15, 431, 36), // "testCalculatorCalculatesMinus..."
+QT_MOC_LITERAL(16, 468, 32), // "testCalculatorAcceptsClearButton"
+QT_MOC_LITERAL(17, 501, 35) // "testCalculatorAcceptsAllClear..."
+
+    },
+    "CalcLib009Test\0initTestCase\0\0"
+    "cleanupTestCase\0testCalculatorCanBeShown\0"
+    "testCalculatorAcceptsNumber1\0"
+    "testCalculatorAcceptsNumber1234567890\0"
+    "testCalculatorIgnoresPrecidingZeros\0"
+    "testCalculatorCalculatesOperatorAdd\0"
+    "testCalculatorCalculatesOperatorSub\0"
+    "testCalculatorCalculatesOperatorMul\0"
+    "testCalculatorCalculatesOperatorDiv\0"
+    "testCalculatorCalculatesRepeatedOperators\0"
+    "testCalculatorCalculatesOperatorAddAfterEqual\0"
+    "testCalculatorAcceptsSign\0"
+    "testCalculatorCalculatesMinusAddPlus\0"
+    "testCalculatorAcceptsClearButton\0"
+    "testCalculatorAcceptsAllClearButton"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CalcLib009Test[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      16,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   94,    2, 0x08 /* Private */,
+       3,    0,   95,    2, 0x08 /* Private */,
+       4,    0,   96,    2, 0x08 /* Private */,
+       5,    0,   97,    2, 0x08 /* Private */,
+       6,    0,   98,    2, 0x08 /* Private */,
+       7,    0,   99,    2, 0x08 /* Private */,
+       8,    0,  100,    2, 0x08 /* Private */,
+       9,    0,  101,    2, 0x08 /* Private */,
+      10,    0,  102,    2, 0x08 /* Private */,
+      11,    0,  103,    2, 0x08 /* Private */,
+      12,    0,  104,    2, 0x08 /* Private */,
+      13,    0,  105,    2, 0x08 /* Private */,
+      14,    0,  106,    2, 0x08 /* Private */,
+      15,    0,  107,    2, 0x08 /* Private */,
+      16,    0,  108,    2, 0x08 /* Private */,
+      17,    0,  109,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void CalcLib009Test::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        CalcLib009Test *_t = static_cast<CalcLib009Test *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->testCalculatorCanBeShown(); break;
+        case 3: _t->testCalculatorAcceptsNumber1(); break;
+        case 4: _t->testCalculatorAcceptsNumber1234567890(); break;
+        case 5: _t->testCalculatorIgnoresPrecidingZeros(); break;
+        case 6: _t->testCalculatorCalculatesOperatorAdd(); break;
+        case 7: _t->testCalculatorCalculatesOperatorSub(); break;
+        case 8: _t->testCalculatorCalculatesOperatorMul(); break;
+        case 9: _t->testCalculatorCalculatesOperatorDiv(); break;
+        case 10: _t->testCalculatorCalculatesRepeatedOperators(); break;
+        case 11: _t->testCalculatorCalculatesOperatorAddAfterEqual(); break;
+        case 12: _t->testCalculatorAcceptsSign(); break;
+        case 13: _t->testCalculatorCalculatesMinusAddPlus(); break;
+        case 14: _t->testCalculatorAcceptsClearButton(); break;
+        case 15: _t->testCalculatorAcceptsAllClearButton(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject CalcLib009Test::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_CalcLib009Test.data,
+      qt_meta_data_CalcLib009Test,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+};
+
+
+const QMetaObject *CalcLib009Test::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CalcLib009Test::qt_metacast(const char *_clname)
+{
+    if (!_clname) return Q_NULLPTR;
+    if (!strcmp(_clname, qt_meta_stringdata_CalcLib009Test.stringdata0))
+        return static_cast<void*>(const_cast< CalcLib009Test*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int CalcLib009Test::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 16)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 16;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 16)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 16;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE
