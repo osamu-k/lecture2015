@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/GcdCpp004.dir/gcd.cpp.o CMakeFiles/GcdCpp004.dir/main.cpp.o  -o GcdCpp004  -L/Users/osamu/Developer/lecture2015/gcd/GcdCpp004/../../gmock-1.7.0/lib -L/Users/osamu/Developer/lecture2015/gcd/GcdCpp004/../../gmock-1.7.0/gtest/lib -lgmock -lgtest 

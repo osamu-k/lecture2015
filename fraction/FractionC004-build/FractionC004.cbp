@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="FractionC004" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/Users/osamu/Developer/lecture2015/fraction/FractionC004-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="FractionC004">
+         <Option output="/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/FractionC004" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/osamu/Developer/lecture2015/fraction/FractionC004-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/osamu/Developer/lecture2015/fraction/FractionC004/../../gmock-1.7.0/gtest/include" />
+            <Add directory="/Users/osamu/Developer/lecture2015/fraction/FractionC004/../../gmock-1.7.0/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 FractionC004" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="FractionC004/fast">
+         <Option output="/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/FractionC004" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/osamu/Developer/lecture2015/fraction/FractionC004-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/osamu/Developer/lecture2015/fraction/FractionC004/../../gmock-1.7.0/gtest/include" />
+            <Add directory="/Users/osamu/Developer/lecture2015/fraction/FractionC004/../../gmock-1.7.0/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 FractionC004/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/Users/osamu/Developer/lecture2015/fraction/FractionC004-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/osamu/Developer/lecture2015/fraction/FractionC004-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/Users/osamu/Developer/lecture2015/fraction/FractionC004/gcd.c">
+      </Unit>
+      <Unit filename="/Users/osamu/Developer/lecture2015/fraction/FractionC004/main.cpp">
+      </Unit>
+      <Unit filename="/Users/osamu/Developer/lecture2015/fraction/FractionC004/gcd.h">
+      </Unit>
+      <Unit filename="/Users/osamu/Developer/lecture2015/fraction/FractionC004/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

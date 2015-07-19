@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/MatrixC002.dir/main.cpp.o CMakeFiles/MatrixC002.dir/matrix.c.o  -o MatrixC002  -L/Users/osamu/Developer/lecture2015/matrix/MatrixC002/../../gmock-1.7.0/lib -L/Users/osamu/Developer/lecture2015/matrix/MatrixC002/../../gmock-1.7.0/gtest/lib -lgmock -lgtest 

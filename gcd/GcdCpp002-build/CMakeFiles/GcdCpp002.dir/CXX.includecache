@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/osamu/Developer/lecture2015/gcd/GcdCpp002/gcd.cpp
+gcd.h
+/Users/osamu/Developer/lecture2015/gcd/GcdCpp002/gcd.h
+iostream
+-
+
+/Users/osamu/Developer/lecture2015/gcd/GcdCpp002/gcd.h
+

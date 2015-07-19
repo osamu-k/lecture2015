@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/osamu/Developer/lecture2015/matrix/MatrixC002/matrix.c
+matrix.h
+/Users/osamu/Developer/lecture2015/matrix/MatrixC002/matrix.h
+stdlib.h
+-
+stdio.h
+-
+
+/Users/osamu/Developer/lecture2015/matrix/MatrixC002/matrix.h
+

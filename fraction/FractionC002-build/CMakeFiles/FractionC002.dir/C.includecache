@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/osamu/Developer/lecture2015/fraction/FractionC002/fraction.c
+fraction.h
+/Users/osamu/Developer/lecture2015/fraction/FractionC002/fraction.h
+gcd.h
+/Users/osamu/Developer/lecture2015/fraction/FractionC002/gcd.h
+limits.h
+-
+
+/Users/osamu/Developer/lecture2015/fraction/FractionC002/fraction.h
+
+/Users/osamu/Developer/lecture2015/fraction/FractionC002/gcd.h
+

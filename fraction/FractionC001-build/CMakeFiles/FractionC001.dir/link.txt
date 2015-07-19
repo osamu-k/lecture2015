@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/FractionC001.dir/gcd.c.o CMakeFiles/FractionC001.dir/main.cpp.o  -o FractionC001  -L/Users/osamu/Developer/lecture2015/fraction/FractionC001/../../gmock-1.7.0/lib -L/Users/osamu/Developer/lecture2015/fraction/FractionC001/../../gmock-1.7.0/gtest/lib -lgmock -lgtest 

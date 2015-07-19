@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/osamu/Developer/lecture2015/fraction/FractionC005/fraction.c
+fraction.h
+/Users/osamu/Developer/lecture2015/fraction/FractionC005/fraction.h
+gcd.h
+/Users/osamu/Developer/lecture2015/fraction/FractionC005/gcd.h
+stdbool.h
+-
+limits.h
+-
+
+/Users/osamu/Developer/lecture2015/fraction/FractionC005/fraction.h
+
+/Users/osamu/Developer/lecture2015/fraction/FractionC005/gcd.h
+
